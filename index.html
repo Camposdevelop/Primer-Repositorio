@@ -4,28 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./stylesheet.css">
     <title>KEEPERS ONLY</title>
 </head>
 <body>
     <div class="grid-container">
-        <div class="grid1 item">1
-            <ul>mi lista</ul>
-                <li>rojo</li>
-                <li>azul</li>
-                <li>verde</li>
+        <div class="grid1 item">
+            <div class="login">
+                <p class="login1">LOGIN</p>
+                    <form id="form" action="enviar.php" method="post">
+                    <label for="User"></label>
+                    <input name="User" type="email" placeholder="User">
+                    <label for="Password"></label>
+                    <input name="Password" type="text" placeholder="Password">
+                    </form>
+            </div>
         </div>
-        <div class="grid2 item">2
-            <ul>mi lista</ul>
-                <li>rojo</li>
-                <li>azul</li>
-                <li>verde</li>
+        <div class="grid2 item">
+            <div class="rMenu">
+                <a class="cleanow" href="./PAGES/startcleaning.html">CLEAN NOW</a>
+                <section class="social">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.whatsapp.com/?lang=es"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://goo.gl/maps/3nkEKcRMJbjB7pTU9"><i class="fa-solid fa-location-arrow"></i></a>
+                </section>
+            </div>
         </div>
-        <div class="grid3 item">3</div>
-        <div class="grid4 item">4</div>
-        <div class="grid5 item">5</div>
-        <div class="grid6 item">6</div>
-        <div class="grid7 item">7</div>
-    </div>
+        <div class="grid3 item">
+            <div class="home">
+                <p class="logo">KEEPERS ONLY</p>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="./PAGES/services.html">SERVICES</a></li>
+                        <li><a href="./PAGES/Contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="grid4 item">
+            <div class="slider">
+                <div class="slide1 slide">
+                    <img src="IMAGES/img 1.jpg" alt="Clean Room">
+                </div>
+                <div class="slide2 slide">
+                    <img src="IMAGES/img 2.jpg" alt="Laundry">
+                </div>
+                <div class="slide3 slide">
+                    <img src="IMAGES/img 3.jpg" alt="Floor cleaning">
+                </div>
+                <div class="slide4 slide">
+                    <video src="VIDEO/video1.mp4" controls></video>
+                </div>           
+            </div>
+        </div>
+        <div class="grid5 item">
+            <div class="skill1">
+                <h2 id="comfort">COMFORT</h2>
+                <ul id="comfort2"> 
+                <li>Search</li>
+                <li>Choose</li>
+                <li>Enojoy</li>
+                </ul>
+            </div>       
+        </div>
+        <div class="grid6 item">
+            <div class="skill2">
+                <h2>FAST AND MANAGABLE</h2>
+            </div>
+        </div>
+        <div class="grid7 item">
+            <div class="skill1">
+                <h2 id="trust">TRUSTWORTHY</h2>
+                <ul id="trust2"> 
+                    <li>Verified keepers</li>
+                    <li>Trasparency</li>
+                    <li>Live Interaction</li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid8 item">
+            <footer>
+                <p>MONTERREY, NL. 2022 - KEEP CLEAN</p>
+                <span>Todos los derechos reservados por copyright</span>
+            </footer>
+        </div>
 </body>
 </html>
